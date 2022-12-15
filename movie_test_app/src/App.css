@@ -3,25 +3,3 @@ body {
   height: 100%;
   position: relative;
 }
-
-
-/* .movie_list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-} */
-
-/* #type::before {
-  content: 'Type: ';
-} */
-
-/* @media screen and (max-width:768px) {
-
-  .movie_list {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-} */
