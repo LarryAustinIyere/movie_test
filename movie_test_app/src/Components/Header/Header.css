@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    height: 140px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #292929;
+    padding: 1rem 4rem;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    width: 193px;
+    height: 60px;
+    left: 77px;
+    top: 40px;
+}
+
+h1 {
+    width: 156.7px;
+    height: 32.94px;
+    left: 96px;
+    top: 54px;
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        justify-content: center;
+        width: 100%;
+    }
+
+}

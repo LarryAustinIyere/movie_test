@@ -1,0 +1,36 @@
+.hero {
+    background: url('../../assets/img.jpg');
+    width: 100%;
+    height: 550px;
+    left: 0px;
+    top: 138px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 4rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    width: 490px;
+    height: 282px;
+    left: 77px;
+    top: 247px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 94px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:768px) {
+    .hero {
+        justify-content: center;
+        text-align: center;
+    }
+
+}

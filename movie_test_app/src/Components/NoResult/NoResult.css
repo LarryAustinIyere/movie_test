@@ -1,0 +1,4 @@
+.no_result {
+    display: grid;
+    place-items: center;
+}
